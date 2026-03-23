@@ -1,0 +1,16 @@
+# Ignorer les dossiers d'environnement de test et les binaires générés
+TP_User/
+*.exe
+*.out
+*.o
+*.old
+
+# Fichiers cache Python
+__pycache__/
+*.pyc
+
+# Éditeurs et OS
+.DS_Store
+.vscode/
+.idea/
+*.swp
