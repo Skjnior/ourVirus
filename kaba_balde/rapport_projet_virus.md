@@ -152,7 +152,7 @@ rm -f *.old MonPG1 MonPG2 MonPG3 MonPG4 MonPG5 MediaPlayer.exe && ./build.sh
 ```
 
 **Capture 1 attendue :** *(Une capture de votre terminal après avoir tapé la commande. On y verra l'état initial : les programmes MonPG font une petite taille (ex: 16 Ko), et il n'y a aucun fichier .old).*
-**[ INSERER CAPTURE D'ÉCRAN 1 ICI ]**
+![Préparation et État Vierge](screenshots/Préparation%20et%20État%20Vierge.png)
 
 
 ### 10.2 Primo-Infection et Interface Humaine
@@ -163,7 +163,7 @@ Nous lançons le piège :
 ```
 
 **Capture 2 attendue :** *(Capture de l'écran affichant la fenêtre GTK avec le titre "Mes photos" et affichant votre image1.jpg ou image2.bmp).*
-**[ INSERER CAPTURE D'ÉCRAN 2 ICI ]**
+![Primo-Infection et Interface Humaine](screenshots/Primo-Infection%20et%20Interface%20Humaine.png)
 
 *(Une fois la capture réalisée, fermez la fenêtre GTK pour valider la suite).*
 
@@ -175,7 +175,7 @@ ls -l
 ```
 
 **Capture 3 attendue :** *(Capture montrant que chaque programme MonPGX pèse maintenant brusquement **environ 22 Ko** (la taille de MediaPlayer) et qu'il est accompagné de son original renommé en MonPGX.old !).*
-**[ INSERER CAPTURE D'ÉCRAN 3 ICI ]**
+![Preuve d'Infection Systématique](screenshots/Preuve%20d'Infection%20Systématique.png)
 
 
 ### 10.4 Vérification de la Furtivité sur un Traceur Complexe (MonPG5)
@@ -186,7 +186,7 @@ L'illusionnisme de la substitution en action :
 ```
 
 **Capture 4 attendue :** *(Capture montrant les lignes d'exécution internes du virus "MonPGX.old déjà infecté" suivies miraculeusement de l'apparition du vrai menu "Choisissez une fonction à tracer". L'illusion parfaite que l'utilisateur a lancé son vrai MonPG5 !).*
-**[ INSERER CAPTURE D'ÉCRAN 4 ICI ]**
+![Vérification de la Furtivité via le Transfert de Relais 1](screenshots/Vérification%20de%20la%20Furtivité%20via%20le%20Transfert%20de%20Relais%201.png)
 *(Tapez `0` pour quitter).*
 
 ### 10.5 Test de Furtivité avec Interaction Tiers (La Calculatrice MonPG1)
@@ -197,7 +197,7 @@ La conservation des flux Input/Output (`stdio`) est validée ici.
 ```
 
 **Capture 5 attendue :** *(Capture montrant l'utilisation réussie de la calculatrice après que le virus ait passé le relais).*
-**[ INSERER CAPTURE D'ÉCRAN 5 ICI ]**
+![Test de Furtivité avec Interaction Tiers (La Calculatrice MonPG1)](screenshots/Test%20de%20Furtivité%20avec%20Interaction%20Tiers%20(La%20Calculatrice%20MonPG1).png)
 *(Tapez `5` pour quitter).*
 
 ### 10.6 Survie Mathématique des Algorithmes (MonPG2 et MonPG3)
@@ -208,7 +208,7 @@ Les algorithmes complexes basés sur `math.h` (`libm`) résistent à l'infection
 ```
 
 **Capture 6 attendue :** *(Capture prouvant que le vérificateur de carré parfait calcule correctement les racines de l'entrée utilisateur).*
-**[ INSERER CAPTURE D'ÉCRAN 6 ICI ]**
+![Survie Mathématique des Algorithmes (MonPG2 et MonPG3)](screenshots/Survie%20Mathématique%20des%20Algorithmes%20(MonPG2%20et%20MonPG3).png)
 
 ### 10.7 Appel Asynchrone Graphique via Script (MonPG4)
 Le transfert n'entrave pas le pipeline Gnuplot d'un vieux programme graphique.
@@ -218,7 +218,7 @@ Le transfert n'entrave pas le pipeline Gnuplot d'un vieux programme graphique.
 ```
 
 **Capture 7 attendue :** *(Prouvez que la fenêtre graphique de Gnuplot montre bien la courbe `f(x) = x^2` depuis le terminal, malgré l'interception de l'architecture virus).*
-**[ INSERER CAPTURE D'ÉCRAN 7 ICI ]**
+![Appel Asynchrone Graphique via Script (MonPG4)](screenshots/Appel%20Asynchrone%20Graphique%20via%20Script%20(MonPG4).png)
 
 <div style="page-break-after: always;"></div>
 
